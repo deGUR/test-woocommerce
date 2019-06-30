@@ -1,0 +1,35 @@
+/*
+Theme Name: Twenty Seventeen Child
+Theme URI: https://wordpress.org/themes/twentyseventeen/
+Author: the WordPress team
+Author URI: https://wordpress.org/
+Template: twentyseventeen
+Description: Twenty Seventeen child theme.
+Version: 2.2
+*/
+
+@import url("../twentyseventeen/style.css");
+
+.woocommerce .columns-1 {
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.woo-site__fotorama-slider {
+    display: block;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.woo-site__box a {
+    display: block;
+    margin: 0 auto;
+    width: 25%;
+    color: #62A5B5;
+    padding: 2px;
+}
+
+.attachment {
+    display: none;
+}
